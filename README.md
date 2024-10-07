@@ -19,3 +19,5 @@ Fullstack developer assessment, made with Express and React.
 ```npm run dev```
 
 Now, you can go to http://localhost:5173 in your browser to use the app.
+
+*note: You need to have npm and node (at least version 18) installed*
