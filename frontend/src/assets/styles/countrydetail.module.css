@@ -1,0 +1,21 @@
+.detail {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	margin-bottom: 4em;
+}
+
+.title {
+	text-align: center;
+}
+
+.flag {
+	max-width: 400px;
+	width: 100%;
+}
+
+.population {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}

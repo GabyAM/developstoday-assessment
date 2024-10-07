@@ -1,0 +1,31 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	width: 100%;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	gap: 1em;
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.list-country {
+	width: 100%;
+	border-radius: 0.25em;
+	background-color: #f6f8fc;
+	padding: 0.5em;
+	transition: background 0.15s ease;
+}
+.list-country:hover {
+	background-color: #c6cbdc;
+}
+
+.list-country h3 {
+	font-size: 1.2em;
+}
